@@ -2,7 +2,8 @@ version: 3
 projects:
   - name: poc
     dir: .
-    workspace: poc
+    # workspace: poc
     workflow: poc
-    autoplan:
-      enabled: true
+  - name: astra
+    dir: ./astra
+    workflow: poc
