@@ -4,6 +4,10 @@ projects:
     dir: .
     # workspace: poc
     workflow: poc
+    autoplan:
+      enabled: true
   - name: astra
     dir: ./astra
     workflow: poc
+    autoplan:
+      enabled: true
